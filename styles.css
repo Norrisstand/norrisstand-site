@@ -1,0 +1,50 @@
+:root {
+  --ink: #1e2a30;
+  --muted: #607078;
+  --paper: #fbf8f1;
+  --line: #c9d3ce;
+  --leaf: #236a59;
+  --sun: #f0b948;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: radial-gradient(circle at 85% 0%, #f7dc95 0, transparent 24rem), var(--paper);
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.6;
+}
+
+main { max-width: 1050px; margin: 0 auto; padding: 2rem 2rem 5rem; }
+
+nav { display: flex; justify-content: space-between; gap: 1rem; padding-bottom: 3rem; font-family: "Trebuchet MS", sans-serif; font-weight: 700; }
+.brand { color: var(--leaf); text-decoration: none; letter-spacing: .03em; }
+
+.hero { max-width: 780px; padding: 4rem 0 5rem; }
+.eyebrow { color: var(--leaf); font: 700 .78rem/1.2 "Trebuchet MS", sans-serif; letter-spacing: .12em; text-transform: uppercase; }
+h1 { max-width: 850px; margin: .5rem 0 1.5rem; font-size: clamp(2.8rem, 8vw, 6.2rem); line-height: .97; letter-spacing: -.05em; }
+h2 { font-family: "Trebuchet MS", sans-serif; font-size: 1.25rem; }
+.lead { max-width: 680px; color: var(--muted); font-size: 1.28rem; }
+
+.card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; overflow: hidden; border: 1px solid var(--line); background: var(--line); }
+.card-grid article { min-height: 260px; padding: 2rem; background: #fffdf7; }
+.card-grid span { color: var(--leaf); font: 700 1rem "Trebuchet MS", sans-serif; }
+.card-grid p, .notice p { color: var(--muted); }
+
+.notice { margin-top: 4rem; max-width: 700px; padding: 2rem; border-left: .45rem solid var(--sun); background: #fff4d7; }
+footer { display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem 2rem; padding: 2rem; border-top: 1px solid var(--line); color: var(--muted); font: .9rem "Trebuchet MS", sans-serif; }
+footer a, .legal a { color: var(--leaf); }
+
+.legal { max-width: 800px; }
+.legal h1 { font-size: clamp(3rem, 7vw, 5.2rem); }
+.legal h2 { margin-top: 2.4rem; }
+.legal p { max-width: 720px; }
+
+@media (max-width: 700px) {
+  main { padding: 1.5rem 1.25rem 3rem; }
+  nav { padding-bottom: 1.5rem; }
+  .hero { padding: 2.5rem 0 3.5rem; }
+  .card-grid { grid-template-columns: 1fr; }
+}
