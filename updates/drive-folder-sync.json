@@ -1,14 +1,14 @@
 {
     "app":  "Drive Folder Sync",
-    "version":  "0.3.7",
-    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.7.exe",
-    "sha256":  "c7f5fd732692c2396725b2f9d184bb4059929ceba86d4ec53a769398e49ed560",
-    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.7.html",
+    "version":  "0.3.8",
+    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.8.exe",
+    "sha256":  "99d2312bc0ad03d87e4241c5641d35c5edc081d92b238707c57ec0fede95a3bf",
+    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.8.html",
     "published_at":  "2026-08-24",
     "summary":  [
-                    "The Windows installer is now substantially smaller, which makes downloads and release publishing more reliable.",
-                    "Unused Google discovery cache files and extra Qt assets were removed from the packaged bundle without changing the customer setup flow.",
-                    "This release keeps the existing activation, onboarding, and Google-account licensing behavior while hardening the release pipeline."
+                    "The desktop app now shows Norris Stand billing mode and billing state after portal validation so customers can better understand their current access.",
+                    "Customer and admin portal views now surface billing state more clearly, including complimentary-access timing and billing-watch exports.",
+                    "Access checks are now more consistent across device approval, heartbeat validation, and Google-account registration when billing access is suspended or has ended."
                 ],
     "signer_subject":  ""
 }
