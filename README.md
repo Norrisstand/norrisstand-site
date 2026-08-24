@@ -4,6 +4,7 @@ Static public site for Norris Stand and Drive Folder Sync. It provides:
 
 - The Norris Stand homepage at `/`
 - The Drive Folder Sync product page at `/drive-folder-sync.html`
+- The public support and setup page at `/support.html`
 - The public downloads page at `/downloads/`
 - The public release notes index at `/release-notes/`
 - The product privacy policy at `/privacy.html`
