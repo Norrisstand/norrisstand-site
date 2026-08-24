@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Drive Folder Sync 0.3.12 release notes from Norris Stand.">
+    <title>Drive Folder Sync 0.3.12 | Release Notes</title>
+    <link rel="icon" type="image/png" href="../app-icon.png">
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <main class="legal">
+      <nav aria-label="Primary navigation">
+        <a class="brand" href="../index.html">
+          <span class="brand-mark"><img src="../app-icon.png" alt=""></span>
+          <span>Norris Stand</span>
+        </a>
+        <span class="nav-links">
+          <a href="../drive-folder-sync.html">Drive Folder Sync</a>
+          <a href="../downloads/index.html">Downloads</a>
+          <a href="index.html">Release Notes</a>
+        </span>
+      </nav>
+
+      <section class="hero">
+        <p class="eyebrow">Drive Folder Sync 0.3.12</p>
+        <h1>An update reliability release for the normal in-app upgrade path.</h1>
+        <p class="lead">Published on August 24, 2026.</p>
+        <div class="hero-actions">
+          <a class="button" href="../downloads/DriveFolderSync-Setup-0.3.12.exe">Download 0.3.12</a>
+          <a class="button secondary" href="../downloads/DriveFolderSync-Setup-0.3.12.sha256.txt">Checksum</a>
+        </div>
+      </section>
+
+      <section class="legal-panel">
+        <h2>Highlights</h2>
+        <ul>
+          <li>The in-app updater now depends on the improved app-and-launcher shutdown coordination introduced in the previous updater fix work.</li>
+          <li>This release keeps the multi-process installer handoff in place while moving the public release line onto that corrected path.</li>
+          <li>It is intended to make the normal <strong>Check for updates</strong> flow behave like a clean handoff instead of a file-lock loop.</li>
+        </ul>
+
+        <h2>Included improvements</h2>
+        <ul>
+          <li>The release metadata and update feed now point to a build created after the app-and-launcher wait logic was fully in place.</li>
+          <li>The launcher-aware installer handoff remains covered by updater regression tests.</li>
+          <li>No customer-facing workflow changes were added beyond updater reliability.</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <span>&copy; 2026 Norris Stand</span>
+      <a href="../index.html">Home</a>
+      <a href="../drive-folder-sync.html">Drive Folder Sync</a>
+      <a href="../downloads/index.html">Downloads</a>
+      <a href="index.html">Release Notes</a>
+      <a href="mailto:hello@norrisstand.com">hello@norrisstand.com</a>
+    </footer>
+  </body>
+</html>
