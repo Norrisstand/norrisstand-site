@@ -1,14 +1,14 @@
 {
     "app":  "Drive Folder Sync",
-    "version":  "0.3.6",
-    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.6.exe",
-    "sha256":  "5d8dc3ed7063cc8379e70451dc88dcb67f5c01aa336cce232fdba9ebb5207012",
-    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.6.html",
+    "version":  "0.3.7",
+    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.7.exe",
+    "sha256":  "c7f5fd732692c2396725b2f9d184bb4059929ceba86d4ec53a769398e49ed560",
+    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.7.html",
     "published_at":  "2026-08-24",
     "summary":  [
-                    "Licenses now track Google account slots separately from device seats, with 2 devices and 2 Google accounts included by default.",
-                    "The Norris Stand portal now shows registered Google accounts, slot usage, and admin controls to release an occupied Google account slot.",
-                    "The desktop app now validates Google account registration against the portal before monitoring starts and reports license slot usage in the app."
+                    "The Windows installer is now substantially smaller, which makes downloads and release publishing more reliable.",
+                    "Unused Google discovery cache files and extra Qt assets were removed from the packaged bundle without changing the customer setup flow.",
+                    "This release keeps the existing activation, onboarding, and Google-account licensing behavior while hardening the release pipeline."
                 ],
     "signer_subject":  ""
 }
