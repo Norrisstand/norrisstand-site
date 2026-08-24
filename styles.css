@@ -201,6 +201,10 @@ h2 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.pricing-grid {
+  margin-top: 1rem;
+}
+
 .mini-card,
 .card-grid article,
 .legal-panel {
@@ -233,6 +237,49 @@ h2 {
   background: linear-gradient(90deg, var(--blue-soft), var(--green-soft));
   color: var(--blue-deep);
   font: 700 0.95rem/1 "Aptos", "Segoe UI", sans-serif;
+}
+
+.featured-plan {
+  border-color: rgba(24, 171, 104, 0.42);
+  background: linear-gradient(180deg, rgba(246, 255, 251, 0.98), rgba(228, 250, 238, 0.96));
+}
+
+.price-tag {
+  margin: 0.2rem 0 0.55rem;
+  color: var(--blue-deep);
+  font-family: "Aptos Display", "Aptos", "Segoe UI", sans-serif;
+  font-size: clamp(2.2rem, 4vw, 3.3rem);
+  line-height: 1;
+  letter-spacing: -0.045em;
+}
+
+.price-tag small {
+  font-size: 0.38em;
+  letter-spacing: 0;
+}
+
+.price-subcopy,
+.section-intro {
+  color: var(--muted);
+}
+
+.detail-list {
+  margin: 1rem 0 0;
+  padding-left: 1.15rem;
+  color: var(--muted);
+}
+
+.detail-list li + li {
+  margin-top: 0.5rem;
+}
+
+.pricing-note {
+  margin-top: 1rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(143, 197, 218, 0.68);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--muted);
 }
 
 .product-card {
