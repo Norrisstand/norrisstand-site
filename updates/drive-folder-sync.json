@@ -1,14 +1,14 @@
 {
     "app":  "Drive Folder Sync",
-    "version":  "0.2.0",
-    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.2.0.exe",
-    "sha256":  "1bf9eaf2dcfe93b2eff943d579a484a725fae0fd8ed8d640259bba090f88eee9",
-    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.2.0.html",
-    "published_at":  "2026-08-23",
+    "version":  "0.3.6",
+    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.6.exe",
+    "sha256":  "5d8dc3ed7063cc8379e70451dc88dcb67f5c01aa336cce232fdba9ebb5207012",
+    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.6.html",
+    "published_at":  "2026-08-24",
     "summary":  [
-                    "Added Norris Stand branding, product pages, and an improved in-app Quick Start guide.",
-                    "Added support for multiple saved Google accounts with account-specific destinations and folder mappings.",
-                    "Added official update checks with verified installer downloads from norrisstand.com."
+                    "Licenses now track Google account slots separately from device seats, with 2 devices and 2 Google accounts included by default.",
+                    "The Norris Stand portal now shows registered Google accounts, slot usage, and admin controls to release an occupied Google account slot.",
+                    "The desktop app now validates Google account registration against the portal before monitoring starts and reports license slot usage in the app."
                 ],
     "signer_subject":  ""
 }
