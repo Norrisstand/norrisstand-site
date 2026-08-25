@@ -1,14 +1,14 @@
 {
     "app":  "Drive Folder Sync",
-    "version":  "0.3.14",
-    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.14.exe",
-    "sha256":  "a66919dad7702fec8d95f36fd99782ccbabcec7cd44d038e3cf6d6566ca94469",
-    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.14.html",
+    "version":  "0.3.15",
+    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.15.exe",
+    "sha256":  "fbfeef8e7c2bee45927d186641e8bb5b0dc41992cc1dfe28638795c4e4d17f22",
+    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.15.html",
     "published_at":  "2026-08-25",
     "summary":  [
-                    "Fixes the packaged Google Drive connection error that could appear when adding a Google account.",
-                    "Restores the Google client module required for the app\u0027s normal Google account sign-in flow.",
-                    "No changes to pricing, licensing, portal access, or folder mappings."
+                    "Completes the packaged Google Drive connection hotfix for adding or reconnecting a Google account.",
+                    "Includes the required Google client module and Drive v3 discovery document in the Windows installer.",
+                    "Adds a build-time package-integrity check for required Google components and the bundled OAuth asset."
                 ],
     "signer_subject":  ""
 }
