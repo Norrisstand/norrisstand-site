@@ -1,14 +1,14 @@
 {
     "app":  "Drive Folder Sync",
-    "version":  "0.3.13",
-    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.13.exe",
-    "sha256":  "2f46f08fa3deb6294b46e6e8baf344d678e243ddb57d2cb10f85ef6658d774c9",
-    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.13.html",
-    "published_at":  "2026-08-24",
+    "version":  "0.3.14",
+    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.14.exe",
+    "sha256":  "a66919dad7702fec8d95f36fd99782ccbabcec7cd44d038e3cf6d6566ca94469",
+    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.14.html",
+    "published_at":  "2026-08-25",
     "summary":  [
-                    "The updater now adds a cache-busting timestamp when it checks the public manifest so fresh releases appear right away after publish.",
-                    "This avoids a stale update feed briefly pointing the app at an older installer because of edge-cache timing on the fixed manifest URL.",
-                    "No customer workflow changed beyond making normal Check for updates results show the newest published release more reliably."
+                    "Fixes the packaged Google Drive connection error that could appear when adding a Google account.",
+                    "Restores the Google client module required for the app\u0027s normal Google account sign-in flow.",
+                    "No changes to pricing, licensing, portal access, or folder mappings."
                 ],
     "signer_subject":  ""
 }
