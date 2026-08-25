@@ -150,6 +150,12 @@ h2 {
   gap: 0.9rem;
 }
 
+.hero-cta-note {
+  margin: 1.2rem 0 0;
+  color: var(--green-deep);
+  font: 700 0.96rem/1.4 "Aptos", "Segoe UI", sans-serif;
+}
+
 .meta-row {
   margin-top: 1.5rem;
 }
@@ -288,6 +294,58 @@ h2 {
   gap: 1rem;
 }
 
+.mapping-preview {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.3fr);
+  gap: 2rem;
+  align-items: center;
+  margin: 0 0 3.5rem;
+  padding: 2.2rem;
+  border: 1px solid rgba(143, 197, 218, 0.8);
+  border-radius: 1.6rem;
+  background: linear-gradient(135deg, rgba(223, 242, 255, 0.94), rgba(228, 250, 238, 0.9));
+  box-shadow: var(--shadow);
+}
+
+.mapping-preview h2 {
+  font-size: clamp(1.5rem, 2.5vw, 2.15rem);
+}
+
+.mapping-preview p:not(.eyebrow) {
+  color: var(--muted);
+}
+
+.mapping-table-wrap {
+  overflow-x: auto;
+  border: 1px solid rgba(143, 197, 218, 0.9);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.mapping-table-wrap table {
+  width: 100%;
+  min-width: 520px;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.mapping-table-wrap th,
+.mapping-table-wrap td {
+  padding: 0.85rem 0.9rem;
+  border-bottom: 1px solid rgba(143, 197, 218, 0.62);
+  text-align: left;
+}
+
+.mapping-table-wrap th {
+  color: var(--blue-deep);
+  background: rgba(223, 242, 255, 0.68);
+  font: 700 0.82rem/1.25 "Aptos", "Segoe UI", sans-serif;
+}
+
+.mapping-table-wrap tr:last-child td {
+  border-bottom: 0;
+}
+
 .product-card p,
 .mini-card p,
 .card-grid p,
@@ -374,7 +432,8 @@ footer a,
 
 @media (max-width: 900px) {
   .mini-grid,
-  .card-grid {
+  .card-grid,
+  .mapping-preview {
     grid-template-columns: 1fr;
   }
 
