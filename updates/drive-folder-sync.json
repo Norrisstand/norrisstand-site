@@ -1,14 +1,14 @@
 {
     "app":  "Drive Folder Sync",
-    "version":  "0.3.16",
-    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.16.exe",
-    "sha256":  "9d0c7b88fb56dc3c64d221e449b44098ab55f3ac9fec83e7e8dbdecab30f7569",
-    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.16.html",
+    "version":  "0.3.17",
+    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.17.exe",
+    "sha256":  "6118aafbb9b5f15f70e31f2cb4867a8e1711afae8adc66fb1ca99ba9d6643082",
+    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.17.html",
     "published_at":  "2026-08-25",
     "summary":  [
-                    "Completes the Google Drive connection hotfix and verifies the required packaged Google components.",
-                    "Adds automated coverage for folder selection, mapping, upload, update, retry, and local-delete behavior.",
-                    "No pricing, license, portal, or customer-account limits changed."
+                    "Adds a redacted customer support-bundle export for troubleshooting.",
+                    "Records Google connection, activation, picker, destination, monitoring, update, and sync failures in the local activity log.",
+                    "Support bundles exclude OAuth tokens, activation tokens, account emails, full local paths, and file contents."
                 ],
     "signer_subject":  ""
 }
