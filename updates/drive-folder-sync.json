@@ -1,14 +1,14 @@
 {
     "app":  "Drive Folder Sync",
-    "version":  "0.3.17",
-    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.17.exe",
-    "sha256":  "6118aafbb9b5f15f70e31f2cb4867a8e1711afae8adc66fb1ca99ba9d6643082",
-    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.17.html",
-    "published_at":  "2026-08-25",
+    "version":  "0.3.18",
+    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.18.exe",
+    "sha256":  "7e17c8b5e114b1ebd16a531ec6be5bc31d48427b9d5e211ba852bc04cc4972c4",
+    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.18.html",
+    "published_at":  "2026-08-26",
     "summary":  [
-                    "Adds a redacted customer support-bundle export for troubleshooting.",
-                    "Records Google connection, activation, picker, destination, monitoring, update, and sync failures in the local activity log.",
-                    "Support bundles exclude OAuth tokens, activation tokens, account emails, full local paths, and file contents."
+                    "Prevents duplicate Drive Folder Sync app instances from starting on the same Windows user session.",
+                    "Shows responsive monitoring-start progress while access, Drive mappings, and existing files are prepared.",
+                    "Retries temporary portal and Google Drive connection interruptions, and skips temporary Microsoft Office lock files."
                 ],
     "signer_subject":  ""
 }
