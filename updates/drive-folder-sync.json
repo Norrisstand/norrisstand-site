@@ -1,14 +1,14 @@
 {
     "app":  "Drive Folder Sync",
-    "version":  "0.3.19",
-    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.19.exe",
-    "sha256":  "85f8f62a697c016e1fbe08d85baa797def6d4fce01310cb939a4ae50897caef0",
-    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.19.html",
-    "published_at":  "2026-08-26",
+    "version":  "0.3.20",
+    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.20.exe",
+    "sha256":  "75d70ca93458b9f124c517ab3f5ce0783b0a8ebd0131f792454dc55ddc56b97a",
+    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.20.html",
+    "published_at":  "2026-08-27",
     "summary":  [
-                    "Turns on Windows sign-in startup and quiet background monitoring after a new customer completes their first successful setup.",
-                    "Reorders Sync setup to follow the customer workflow: Google account, Drive destination, then folder mapping.",
-                    "Adds selected-row Mapping details so full local and Drive paths are easy to verify."
+                    "Creates a private support reference when an activated PC exports a redacted support bundle.",
+                    "Adds that reference to the support bundle filename and diagnostic manifest without uploading logs or files.",
+                    "Keeps local support-bundle export available if the portal is temporarily unavailable."
                 ],
     "signer_subject":  ""
 }
