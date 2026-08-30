@@ -1,14 +1,14 @@
 {
     "app":  "Drive Folder Sync",
-    "version":  "0.3.20",
-    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.20.exe",
-    "sha256":  "75d70ca93458b9f124c517ab3f5ce0783b0a8ebd0131f792454dc55ddc56b97a",
-    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.20.html",
-    "published_at":  "2026-08-27",
+    "version":  "0.3.22",
+    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.22.exe",
+    "sha256":  "ae5be3694526dd63b54e3bcaf99ffa59a0f1f3b9387c9cf293cc5681bdef8abc",
+    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.22.html",
+    "published_at":  "2026-08-30",
     "summary":  [
-                    "Creates a private support reference when an activated PC exports a redacted support bundle.",
-                    "Adds that reference to the support bundle filename and diagnostic manifest without uploading logs or files.",
-                    "Keeps local support-bundle export available if the portal is temporarily unavailable."
+                    "Makes support requests clearer when a diagnostic report is available for your case.",
+                    "Uses a simple final confirmation in the app before a diagnostic report is sent.",
+                    "Keeps Export support bundle available whenever you prefer the manual support path."
                 ],
     "signer_subject":  ""
 }
