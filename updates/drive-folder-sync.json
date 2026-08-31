@@ -1,14 +1,14 @@
 {
     "app":  "Drive Folder Sync",
-    "version":  "0.3.22",
-    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.22.exe",
-    "sha256":  "ae5be3694526dd63b54e3bcaf99ffa59a0f1f3b9387c9cf293cc5681bdef8abc",
-    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.22.html",
-    "published_at":  "2026-08-30",
+    "version":  "0.3.23",
+    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.23.exe",
+    "sha256":  "42e890bc3b891397dc549856ab91dc28d633ee499f4f61d725fd576bcf6aed54",
+    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.23.html",
+    "published_at":  "2026-08-31",
     "summary":  [
-                    "Makes support requests clearer when a diagnostic report is available for your case.",
-                    "Uses a simple final confirmation in the app before a diagnostic report is sent.",
-                    "Keeps Export support bundle available whenever you prefer the manual support path."
+                    "Improves the guided setup path from activation through the first successful sync.",
+                    "Keeps setup follow-up focused when additional help is needed.",
+                    "Continues to keep local folders and synced file contents out of setup progress reporting."
                 ],
     "signer_subject":  ""
 }
