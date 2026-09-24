@@ -1,14 +1,14 @@
 {
-  "app": "Drive Folder Sync",
-  "version": "0.3.27",
-  "installer_url": "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.27.exe",
-  "sha256": "066c2bbb41795d1333c63cff44a9f25f84dbcd10da4b96c46ca7c55bcfce4681",
-  "release_notes_url": "https://norrisstand.com/release-notes/drive-folder-sync-0.3.27.html",
-  "published_at": "2026-09-24",
-  "summary": [
-    "Protects Norris Stand activation and Google sign-in credentials with Windows user-scoped encryption.",
-    "Applies the 24-hour offline grace consistently to starting and already-running monitoring.",
-    "Adds the commercial subscription path while preserving existing folder mapping and sync behavior."
-  ],
-  "signer_subject": "CN=NORRISSTAND LLC, O=NORRISSTAND LLC, L=Lebanon Junction, S=Kentucky, C=US"
+    "app":  "Drive Folder Sync",
+    "version":  "0.3.22",
+    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.22.exe",
+    "sha256":  "ae5be3694526dd63b54e3bcaf99ffa59a0f1f3b9387c9cf293cc5681bdef8abc",
+    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.22.html",
+    "published_at":  "2026-08-30",
+    "summary":  [
+                    "Makes support requests clearer when a diagnostic report is available for your case.",
+                    "Uses a simple final confirmation in the app before a diagnostic report is sent.",
+                    "Keeps Export support bundle available whenever you prefer the manual support path."
+                ],
+    "signer_subject":  ""
 }
