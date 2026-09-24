@@ -1,14 +1,14 @@
 {
-    "app":  "Drive Folder Sync",
-    "version":  "0.3.22",
-    "installer_url":  "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.22.exe",
-    "sha256":  "ae5be3694526dd63b54e3bcaf99ffa59a0f1f3b9387c9cf293cc5681bdef8abc",
-    "release_notes_url":  "https://norrisstand.com/release-notes/drive-folder-sync-0.3.22.html",
-    "published_at":  "2026-08-30",
-    "summary":  [
-                    "Makes support requests clearer when a diagnostic report is available for your case.",
-                    "Uses a simple final confirmation in the app before a diagnostic report is sent.",
-                    "Keeps Export support bundle available whenever you prefer the manual support path."
-                ],
-    "signer_subject":  ""
+  "app": "Drive Folder Sync",
+  "version": "0.3.28",
+  "installer_url": "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.28.exe",
+  "sha256": "7f784f3fa4248d4f8d2c768d89b4da01d4b8c75a85c82e47af84dde137712c08",
+  "release_notes_url": "https://norrisstand.com/release-notes/drive-folder-sync-0.3.28.html",
+  "published_at": "2026-09-24",
+  "summary": [
+    "Fixes the packaged startup failure that could occur after updating to version 0.3.27.",
+    "Preserves protected activation, Google credentials, mappings, and established sync behavior.",
+    "Lets affected 0.3.27 installations recover by running the new installer directly without uninstalling first."
+  ],
+  "signer_subject": "CN=NORRISSTAND LLC, O=NORRISSTAND LLC, L=Lebanon Junction, S=Kentucky, C=US"
 }
