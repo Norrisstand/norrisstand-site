@@ -14,7 +14,11 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
       - run: python .github/scripts/verify_release_assets.py
+        env:
+          DFS_SITE_BASE_SHA: ${{ github.event.pull_request.base.sha }}

@@ -4,7 +4,9 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
+import subprocess
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -27,6 +29,21 @@ def sha256(path: Path) -> str:
 
 
 def main() -> None:
+    base_sha = os.environ.get("DFS_SITE_BASE_SHA", "").strip()
+    if base_sha:
+        changed = subprocess.run(
+            ["git", "diff", "--name-status", "--no-renames", base_sha, "HEAD", "--", "downloads"],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        require(changed.returncode == 0, "Cannot compare release assets with the PR base")
+        immutable = re.compile(r"downloads/DriveFolderSync-Setup-\d+\.\d+\.\d+(?:\.exe|\.sha256\.txt)")
+        for line in changed.stdout.splitlines():
+            status, path = line.split("\t", 1)
+            require(not (status[0] in "MD" and immutable.fullmatch(path)), f"Existing versioned release asset changed: {path}")
+
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     version = manifest.get("version", "")
     require(bool(re.fullmatch(r"\d+\.\d+\.\d+", version)), "Invalid manifest version")
