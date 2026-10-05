@@ -1,0 +1,9 @@
+# Norris Stand public site instructions
+
+This public repository, `Norrisstand/norrisstand-site`, is the GitHub Pages source for `https://norrisstand.com/`. Its `main` branch publishes the public site. Drive Folder Sync implementation, builds, signing and release truth belong to the separate private `Norrisstand/drive-folder-sync` repository; Platform and customer services belong to `Norrisstand/norrisstand-platform`.
+
+- Verify this Git root, remote, branch, actual remote head, worktree and active writer before editing. Use one active writer for this repository, no overlapping file edits, a branch and a protected PR. Do not push directly to `main`.
+- Claude Code may make ordinary assigned site changes under current Platform/owner direction without repeated routine prompts. Codex normally reviews read-only. Kelly's explicit authorization is required for a public DFS installer, website/updater release, Store-related package hosting, pricing, legal/privacy publication, destructive or customer-affecting change. A build approval in the DFS repository does not authorize site publication.
+- A site PR merge is a public deployment. For a DFS release, require the exact approved version, signed installer hash, versioned URL, release notes, updater manifest, channel order, verification and rollback from the DFS release packet. Never overwrite bytes at a versioned installer URL submitted to Microsoft.
+- Run `.github/scripts/verify_release_assets.py` and require the `Validate` check on the exact PR head. Verify the deployed site and downloaded bytes after any approved merge. Keep secrets, customer data and private DFS state out of this public repository.
+- The Microsoft Store product is Drive Folder Sync by NorrisStand, Store ID `XP8BRXQSWQCV5V`. This repository does not submit to Partner Center or change the DFS app by itself.
