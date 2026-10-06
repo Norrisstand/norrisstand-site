@@ -1,14 +1,14 @@
 {
   "app": "Drive Folder Sync",
-  "version": "0.3.29",
-  "installer_url": "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.29.exe",
-  "sha256": "e86e9801164c28efbbf6f00ee7d2f0157b2197e287e4f8a5f53a71308e99cb04",
-  "release_notes_url": "https://norrisstand.com/release-notes/drive-folder-sync-0.3.29.html",
+  "version": "0.3.30",
+  "installer_url": "https://norrisstand.com/downloads/DriveFolderSync-Setup-0.3.30.exe",
+  "sha256": "438e81a8d752a57ff9e71f34bb855d6be9a8807b09ea2ba0972837231f1a959e",
+  "release_notes_url": "https://norrisstand.com/release-notes/drive-folder-sync-0.3.30.html",
   "published_at": "2026-10-06",
   "summary": [
-    "Fixes a secure-connection error that could stop activation on some Windows installations even when a web browser could reach Norris Stand.",
-    "Keeps certificate and hostname verification required for activation, account, diagnostic, and update connections.",
-    "Preserves protected activation, Google credentials, mappings, and established sync behavior."
+    "Restarting monitoring now syncs only new or changed files instead of re-queuing every existing file.",
+    "New and changed files start syncing during the startup check, and changes made as monitoring starts are picked up.",
+    "The startup check keeps an existing queued retry on its current schedule and preserves protected activation, Google credentials, mappings, and established sync behavior."
   ],
   "signer_subject": "CN=NORRISSTAND LLC, O=NORRISSTAND LLC, L=Lebanon Junction, S=Kentucky, C=US"
 }
