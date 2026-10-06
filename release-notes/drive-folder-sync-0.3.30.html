@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Drive Folder Sync 0.3.30 release notes from Norris Stand.">
+    <title>Drive Folder Sync 0.3.30 | Release Notes</title>
+    <link rel="icon" type="image/png" href="../app-icon.png">
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <main class="legal">
+      <nav aria-label="Primary navigation"><a class="brand" href="../index.html">Norris Stand</a></nav>
+      <section class="hero">
+        <p class="eyebrow">Drive Folder Sync 0.3.30</p>
+        <h1>Faster, quieter monitoring restarts.</h1>
+        <p class="lead">Published October 6, 2026 by NORRISSTAND LLC.</p>
+        <div class="hero-actions">
+          <a class="button" href="../downloads/DriveFolderSync-Setup-0.3.30.exe">Download 0.3.30</a>
+          <a class="button secondary" href="../downloads/DriveFolderSync-Setup-0.3.30.sha256.txt">Checksum</a>
+        </div>
+      </section>
+      <section class="legal-panel">
+        <h2>What changed</h2>
+        <ul>
+          <li>When monitoring starts, Drive Folder Sync now checks existing files against what it has already synced for each Google account and queues only new or changed files. Unchanged files are no longer queued or uploaded again.</li>
+          <li>New and changed files begin syncing while the startup check continues, and files created or edited as monitoring starts are picked up.</li>
+          <li>Unchanged files left in the queue by an earlier version are cleared quickly, and the startup check keeps an existing queued retry on its current retry schedule.</li>
+          <li>The status line now shows how many files the startup check found unchanged and how many are pending sync.</li>
+          <li>Preserves protected activation, Google credential storage, mappings, and established sync behavior. Files deleted locally remain in Google Drive.</li>
+          <li>The installer and project-owned Windows binaries are signed by NORRISSTAND LLC.</li>
+        </ul>
+      </section>
+      <section class="notice">
+        <h2>Updating</h2>
+        <p>Existing installations can update from within Drive Folder Sync, or you can download the latest installer from NorrisStand.com and install it directly over the existing installation. Do not uninstall first. Your activation and settings should be preserved.</p>
+      </section>
+    </main>
+    <footer>
+      <span>&copy; 2026 NORRISSTAND LLC</span>
+      <a href="../index.html">Home</a><a href="../downloads/index.html">Downloads</a><a href="../support.html">Support</a><a href="../privacy.html">Privacy Policy</a><a href="../terms.html">Terms of Service</a>
+    </footer>
+    <!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bb7e05416d05429bae39678cfcc15840"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
