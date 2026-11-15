@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Drive Folder Sync 0.3.34 release notes from Norris Stand.">
+    <title>Drive Folder Sync 0.3.34 | Release Notes</title>
+    <link rel="icon" type="image/png" href="../app-icon.png">
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <main class="legal">
+      <nav aria-label="Primary navigation"><a class="brand" href="../index.html">Norris Stand</a></nav>
+      <section class="hero">
+        <p class="eyebrow">Drive Folder Sync 0.3.34</p>
+        <h1>Sync single files, stricter update checks, and a clearer folder table.</h1>
+        <p class="lead">Published November 15, 2026 by NORRISSTAND LLC.</p>
+        <div class="hero-actions">
+          <a class="button" href="../downloads/DriveFolderSync-Setup-0.3.34.exe">Download 0.3.34</a>
+          <a class="button secondary" href="../downloads/DriveFolderSync-Setup-0.3.34.sha256.txt">Checksum</a>
+        </div>
+      </section>
+      <section class="legal-panel">
+        <h2>What changed</h2>
+        <ul>
+          <li>You can now sync a single file, not only a whole folder. Click <b>Add source file</b> beside <b>Add source folder</b> and pick one or more files; only the files you pick are synced, not the rest of the folder they sit in. The mappings table shows whether each source is a folder or a file.</li>
+          <li>If a source file is renamed, moved or deleted on your PC, its row shows <b>File not found</b> and everything else keeps syncing. Its Drive copy is never deleted, and it syncs again by itself when a file with that exact name is back in the same folder.</li>
+          <li>A file that is already inside a synced folder of the same Google account cannot also be added on its own, so each file has one Drive destination per account.</li>
+          <li>Updates are accepted only when they are signed by exactly NORRISSTAND LLC. Any download that fails this check is deleted, and the verified signer is recorded in Activity.</li>
+          <li>Exported support logs no longer include file names in their "Synced" and "Will retry" lines.</li>
+          <li>The folder table headers are easier to read, long paths are shortened in the middle, and the table scrolls sideways when needed. The app no longer shows a price; pricing is on NorrisStand.com.</li>
+          <li>Requires Windows 10 version 1809 or later. Preserves protected activation, Google credential storage, mappings, and established sync behavior. Renamed or moved files are still uploaded as new Drive copies, and files deleted locally remain in Google Drive.</li>
+          <li>The installer and project-owned Windows binaries are signed by NORRISSTAND LLC.</li>
+        </ul>
+      </section>
+      <section class="notice">
+        <h2>Updating</h2>
+        <p>Existing installations can update from within Drive Folder Sync, or you can download the latest installer from NorrisStand.com and install it directly over the existing installation. Do not uninstall first. Before updating, close Drive Folder Sync in any other signed-in Windows session. Your activation and settings should be preserved.</p>
+      </section>
+    </main>
+    <footer>
+      <span>&copy; 2026 NORRISSTAND LLC</span>
+      <a href="../index.html">Home</a><a href="../downloads/index.html">Downloads</a><a href="../support.html">Support</a><a href="../privacy.html">Privacy Policy</a><a href="../terms.html">Terms of Service</a>
+    </footer>
+    <!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "bb7e05416d05429bae39678cfcc15840"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
